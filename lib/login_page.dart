@@ -12,9 +12,13 @@ class LoginPage extends StatelessWidget {
           Center(
             child: Container(
               child: Container(
-                  width: 232,
-                  height: 32,
-                  child: FaIcon(FontAwesomeIcons.amazon)),
+                width: 232,
+                height: 32,
+                child: Icon(
+                  FontAwesomeIcons.amazon,
+                  size: 54,
+                ),
+              ),
             ),
           ),
         ],
