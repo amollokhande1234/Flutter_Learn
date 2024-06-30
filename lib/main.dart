@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:learning_flutter/Calculator.dart';
 import 'package:learning_flutter/CustomeWidget.dart';
 import 'package:learning_flutter/Stack.dart';
 import 'package:learning_flutter/Widgets/rounded_button.dart';
@@ -25,7 +26,7 @@ class myApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: "Material App",
-      home: STF(),
+      home: Calculator(),
     );
   }
 }
